@@ -1,0 +1,76 @@
+{
+  "certification_id": "aip-c01",
+  "name": "AWS Certified AI Practitioner",
+  "code": "AIP-C01",
+  "passing_score": 75,
+  "total_questions_exam": 85,
+  "time_limit_minutes": 120,
+  "domains": [
+    {
+      "id": 1,
+      "name": "Fundamentals of Generative AI",
+      "weight": 20,
+      "topics": [
+        "Foundation models",
+        "Large Language Models",
+        "Transformer architecture",
+        "Training and fine-tuning",
+        "Prompt engineering"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Implementation and Integration",
+      "weight": 30,
+      "topics": [
+        "Amazon Bedrock",
+        "Amazon SageMaker",
+        "RAG patterns",
+        "Agent architectures",
+        "API integration"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Security Governance and Responsible AI",
+      "weight": 25,
+      "topics": [
+        "Data privacy",
+        "Model governance",
+        "Guardrails",
+        "Bias detection",
+        "Compliance frameworks"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Optimization and Monitoring",
+      "weight": 15,
+      "topics": [
+        "Model evaluation metrics",
+        "Cost optimization",
+        "Performance tuning",
+        "CloudWatch monitoring",
+        "A/B testing"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Testing Validation and Troubleshooting",
+      "weight": 10,
+      "topics": [
+        "Model validation",
+        "Hallucination detection",
+        "Debugging techniques",
+        "Load testing",
+        "Error handling"
+      ]
+    }
+  ],
+  "question_types": ["multiple_choice", "multiple_response"],
+  "difficulty_levels": ["beginner", "intermediate", "advanced"],
+  "knowledge_base_sources": [
+    "certifications/aip-c01/exam-guide.pdf",
+    "certifications/aip-c01/questions/"
+  ]
+}

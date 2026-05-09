@@ -1,0 +1,18 @@
+{
+  "name": "certification-coach",
+  "description": "AWS Certification Coach - AI-powered teacher for exam preparation",
+  "prompt": "./system-prompt.md",
+  "tools": [],
+  "allowedTools": [
+    "knowledge_search",
+    "web_search",
+    "aws_docs_search",
+    "aws_blog_search"
+  ],
+  "mcpServers": {},
+  "resources": [],
+  "hooks": [],
+  "includeMcpJson": true,
+  "model": "auto",
+  "welcomeMessage": "🎓 Ciao! Sono il tuo Coach per le certificazioni AWS.\n\nComandi disponibili:\n- /quiz [dominio] [difficoltà] [numero] — Inizia un quiz\n- /score — Mostra il tuo progresso\n- /weak — Mostra le aree deboli\n- /explain [argomento] — Spiega un concetto AWS\n\nCon quale certificazione vuoi iniziare? (default: AIP-C01)"
+}

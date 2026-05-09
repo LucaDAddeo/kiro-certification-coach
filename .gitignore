@@ -1,0 +1,21 @@
+# macOS resource forks
+._*
+.DS_Store
+
+# Progress data (personal, not shared)
+progress/progress.json
+
+# Kiro CLI knowledge base (local only)
+.aws/
+
+# ZIP archives (reference material, too large for git)
+*.zip
+
+# PDF files (copyrighted exam materials)
+*.pdf
+
+# Session exports (personal chat history)
+*-session*.md
+
+# VS Code workspace (personal)
+*.code-workspace
