@@ -217,7 +217,7 @@ GET /get-current-date-and-time
 ### 2. QuizMaker (Pipeline processamento quiz)
 - **Path**: `/Volumes/MAC-USB/AWS/AIP-C01/QuizMaker/`
 - **Tipo**: Pipeline Kiro-driven + Python scaffolding
-- **Contenuto**: 208 domande TutorialsDojo processate (tradotte IT + analisi didattica)
+- **Contenuto**: 208 domande di pratica processate (tradotte IT + analisi didattica)
 - **Output**: `processed/AIP-C01_Set_1_Processato.md` (75), `Set_2` (75), `Bonus_Set_3` (58)
 - **Python pipeline**: parser.py, processor.py, writer.py, models.py, prompts.py
 - **Pattern**: Sub-agent delegation + checkpointing + auto-continue hook
@@ -228,14 +228,13 @@ GET /get-current-date-and-time
 
 ### 4. AIP-C01 (Materiale studio)
 - **Path**: `/Volumes/MAC-USB/AWS/AIP-C01/`
-- Exam guide PDF, domande pratica (eBay), Exam Prep Plan, TutorialsDojo sets
+- Exam guide PDF, domande pratica, Exam Prep Plan
 
 ---
 
 ## 🔗 Progetto di Riferimento
 
-### anix-the-genai-certification-teacher (Anand Joshi)
-- **Repo**: `https://github.com/anandxmj/anix-the-genai-certification-teacher`
+### Progetto di Riferimento
 - **Tipo**: Agente Kiro CLI per quiz GenAI certification
 - **Funzionamento**: Custom agent con knowledge base (exam guide), genera quiz al volo via LLM
 - **Features**: Adaptive learning, multiple question types, difficulty levels, domain focus, performance analysis

@@ -8,7 +8,7 @@ An AI-powered study coach for AWS certification preparation, built as a Kiro CLI
 
 ## 📋 What This Agent Does
 
-- **Generates exam-realistic quizzes** from a curated Knowledge Base (exam guide + 208 processed TutorialsDojo questions)
+- **Generates exam-realistic quizzes** from a curated Knowledge Base (exam guide + 208 processed practice questions)
 - **Adapts explanations** to your skill level per domain (beginner / intermediate / advanced)
 - **Tracks your progress** persistently in a local JSON file across sessions
 - **Identifies weak areas** and provides targeted study recommendations
@@ -214,7 +214,7 @@ Progress is stored in `progress/progress.json`, one file for all certifications.
 - **Kiro CLI docs**: https://kiro.dev/docs/cli/
 - **Kiro CLI custom agents**: https://kiro.dev/docs/cli/custom-agents/configuration-reference/
 - **AIP-C01 official**: https://aws.amazon.com/certification/certified-generative-ai-developer-professional
-- **Reference project**: [anix-the-genai-certification-teacher](https://github.com/anandxmj/anix-the-genai-certification-teacher) by Anand Joshi
+- **Reference project**: Open-source Kiro CLI certification teacher pattern
 
 ---
 
