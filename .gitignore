@@ -19,3 +19,5 @@ progress/progress.json
 
 # VS Code workspace (personal)
 *.code-workspace
+certifications/aip-c01/questions/*.md
+certifications/aip-c01/exam-guide.pdf
